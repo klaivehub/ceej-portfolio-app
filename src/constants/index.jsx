@@ -315,7 +315,7 @@ export const PROJECTS_DATA = [
     },
     {
         "id": 10,
-        "title": "City Delivery App",
+        "title": "GetKo",
         "description": "This project is a city-wide delivery application that connects local businesses with customers, providing a seamless platform for ordering and delivering goods within the city.",
         "image": "https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/MA_00248924_1.jpg"
     },

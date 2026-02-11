@@ -7,7 +7,7 @@ export default function SkillsSection() {
       className="flex items-center justify-center py-20 px-4 grid-background"
       style={{
         backgroundColor: "var(--primary-dark)",
-        color: "var(--primary-light)",
+        color: "var(--primary-dark)",
       }}
     >
       <div className="max-w-4xl mx-auto w-full">
@@ -21,7 +21,7 @@ export default function SkillsSection() {
           </div>
           <h2
             className="text-4xl md:text-5xl font-bold mb-4"
-            style={{ fontFamily: "var(--font-display)" }}
+            style={{ fontFamily: "var(--font-display)", color: "var(--primary-light)" }}
           >
             Skills &{" "}
             <span style={{ color: "var(--accent-color)" }}>Technologies</span>

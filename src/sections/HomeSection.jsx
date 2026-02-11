@@ -113,7 +113,7 @@ export default function HomeSection() {
               }}
             >
               <img
-                src="public/images/profile_picture.jpg"
+                src="/images/profile_picture.jpg"
                 alt="Chrisjohn Laxa"
                 className="w-full h-full object-cover"
               />
