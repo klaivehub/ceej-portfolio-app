@@ -98,7 +98,7 @@ const ExperienceCard = ({ experience, index }) => {
               </div>
 
               <div
-                className="text-sm flex items-center gap-4"
+                className="text-sm grid md:grid-cols-2 items-center gap-2"
                 style={{ color: "var(--text-light)" }}
               >
                 <span>📍 {experience.location}</span>
