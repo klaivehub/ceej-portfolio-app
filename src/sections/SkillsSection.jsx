@@ -4,7 +4,7 @@ export default function SkillsSection() {
   return (
     <section
       id="skills"
-      className="min-h-screen flex items-center justify-center py-20 px-4 grid-background"
+      className="flex items-center justify-center py-20 px-4 grid-background"
       style={{
         backgroundColor: "var(--primary-dark)",
         color: "var(--primary-light)",

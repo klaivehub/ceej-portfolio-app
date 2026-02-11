@@ -34,7 +34,7 @@ export default function HomeSection() {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center mt-6 px-4 grid-background"
+      className="min-h-screen flex items-center justify-center p-4 grid-background"
       style={{
         backgroundColor: "var(--primary-dark)",
         color: "var(--primary-light)",

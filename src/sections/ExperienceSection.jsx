@@ -163,7 +163,7 @@ export default function ExperienceSection() {
   return (
     <section
       id="experience"
-      className="min-h-screen flex items-center justify-center py-20 px-4 grid-background"
+      className="flex items-center justify-center py-20 px-4 grid-background"
       style={{
         backgroundColor: "var(--primary-dark)",
         color: "var(--primary-light)",
