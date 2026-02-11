@@ -40,7 +40,8 @@ export default function Navbar() {
                             onClick={(e) => handleNavClick(e, "home")}
                             className="text-2xl font-bold cursor-pointer hover:text-cyan-400 transition"
                         >
-                           CEEJ
+                           <span className="text-cyan-400">C</span>
+                           eej
                         </a>
 
                         {/* 2. Desktop Navigation */}

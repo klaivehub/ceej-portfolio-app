@@ -37,9 +37,8 @@ export default function HomeSection() {
                         >
                             Hi, I'm{" "}
                             <span style={{ color: "var(--accent-color)" }}>
-                                CEEJ
-                            </span>
-                            !
+                                Ceej
+                            </span>!
                         </h1>
 
                         {/* Subheading */}
