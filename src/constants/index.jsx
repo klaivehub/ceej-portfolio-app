@@ -1,9 +1,75 @@
 export const NAV_LINKS = [
-  { label: "Home", href: "#home",  id: "home" },
-  { label: "Portfolio", href: "#portfolio",  id: "portfolio" },
+  { label: "Home", href: "#home", id: "home" },
+  { label: "Portfolio", href: "#portfolio", id: "portfolio" },
   { label: "Skills", href: "#skills", id: "skills" },
   { label: "Experience", href: "#experience", id: "experience" },
   { label: "Contact", href: "#contact", id: "contact" },
+];
+
+export const EXPERIENCES_DATA = [
+    {
+        title: "Junior Software Developer",
+        status: null,
+        company: "Stratedia",
+        location: "Remote (Mystic, Connecticut, USA)",
+        dateRange: "Feb 2025 - Oct 2025",
+        description:
+            "Developed full-cycle application modernization using Laravel and React, boosting backend efficiency by 12% through optimized API design and use of AJAX principles.",
+        techStack: [
+            "React",
+            "Laravel",
+            "TypeScript",
+            "Redux",
+            "jQuery",
+            "JavaScript",
+            "Github",
+            "Monday.com",
+            "AI Integration",
+            "Perplexity AI",
+            "OpenAI",
+            "API Integration",
+            "Bootstrap",
+            "Agile Scrum",
+            "cPanel",
+            "MVC Architecture",
+        ],
+    },
+    {
+        title: "Junior Software Engineer",
+        status: null,
+        company: "Exocoder, Inc.",
+        location: "On-site (Kabankalan City, Philippines)",
+        dateRange: "Jul 2024 - Jan 2025",
+        description:
+            "Architected and delivered responsive, high-performance user interfaces for a city-wide delivery application using React and Laravel.",
+        techStack: [
+            "React",
+            "Laravel",
+            "React Native",
+            "MySQL",
+            "SQLite",
+            "Laravel Filament",
+            "Docker",
+            "Figma",
+            "Express.js",
+            "Slack",
+            "GitHub",
+            "Tailwind CSS",
+            "Bootstrap",
+            "Postman",
+            "Agile Scrum",
+        ],
+    },
+    {
+        title: "QA Tester Intern",
+        status: "Internship",
+        company: "NOAH Business Applications",
+        location: "Remote (Makati City, Philippines)",
+        dateRange: "Mar 2024 - Jun 2024",
+        description:
+            "Conducted comprehensive QA testing across multiple platforms, enabling the early identification of defects and ensuring the seamless integration of new features. Executed detailed test plans and maintained strict documentation (test cases, results, and bug reports) using Google Sheets and Docs, ensuring 99% accuracy in tracking and reporting.",
+        techStack: ["Google Sheets", "Google Docs", "Zoom"],
+    },
 ];
 
 export const SKILLS_FILTERS = [
@@ -177,11 +243,15 @@ export const FOOTER_LINKS = [
 ];
 
 export const SOCIAL_LINKS = [
-  { icon: "Github", href: "https://github.com/klaivehub", label: "GitHub" },
+  { label: "GitHub", icon: "Github", href: "https://github.com/klaivehub" },
   {
+    label: "LinkedIn",
     icon: "LinkedIn",
     href: "https://linkedin.com/in/chrisjohnlaxa",
-    label: "LinkedIn",
   },
-  { icon: "Facebook", href: "https://www.facebook.com/kaiong35/", label: "Facebook" },
+  {
+    icon: "Facebook",
+    href: "https://www.facebook.com/kaiong35/",
+    label: "Facebook",
+  },
 ];
