@@ -76,7 +76,7 @@ export default function HomeSection() {
               <Button
                 // download
                 href="/documents/chrisjohn_laxa_resume.pdf"
-                className="border-2"
+                className="border-2 cursor-pointer"
                 style={{
                   backgroundColor: "var(--accent-color)",
                   color: "var(--primary-dark)",
@@ -92,13 +92,13 @@ export default function HomeSection() {
                     .getElementById("contact")
                     .scrollIntoView({ behavior: "smooth" })
                 }
-                className="border-2"
+                className="border-2 cursor-pointer"
                 style={{
                   backgroundColor: "var(--accent-color)",
                   color: "var(--primary-dark)",
                 }}
               >
-                Let's Discuss Opportunities
+                Hire Me!
               </Button>
             </div>
           </div>
