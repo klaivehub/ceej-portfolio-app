@@ -45,7 +45,7 @@ export default function HomeSection() {
                         {/* Subheading */}
                         <h4
                             className="text-xl md:text-2xl mb-6"
-                            style={{ color: "var(--text-subtitle)", fontFamily: "var(--font-body)" }}
+                            style={{ color: "var(--text-subtitle)"}}
                         >
                             Full-Stack Web Developer
                         </h4>
@@ -92,7 +92,7 @@ export default function HomeSection() {
                             }}
                         >
                             <img
-                                src="/assets/images/profile_picture.jpg"
+                                src="public/images/profile_picture.jpg"
                                 alt="Chrisjohn Laxa"
                                 className="w-full h-full object-cover"
                             />

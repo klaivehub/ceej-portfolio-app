@@ -3,6 +3,7 @@ export const NAV_LINKS = [
   { href: "#portfolio", label: "Portfolio", id: "portfolio" },
   { href: "#skills", label: "Skills", id: "skills" },
   { href: "#experience", label: "Experience", id: "experience" },
+  { href: "#contact", label: "Contact", id: "contact" },
 ];
 
 // Skills Filters
@@ -23,7 +24,7 @@ export const SKILLS_DATA = [
         description: "Building interactive UIs with hooks and components",
         icon: (
             <img
-                src="./assets/svg/react-icon.svg"
+                src="public/svg/react-icon.svg"
                 alt="React"
                 className="w-10 h-10 object-contain"
             />
@@ -35,7 +36,7 @@ export const SKILLS_DATA = [
         description: "ES6+ features and modern JavaScript patterns",
         icon: (
             <img
-                src="/assets/svg/javascript-icon.svg"
+                src="public/svg/javascript-icon.svg"
                 alt="JavaScript"
                 className="w-10 h-10 object-contain"
             />
@@ -47,7 +48,7 @@ export const SKILLS_DATA = [
         description: "Semantic markup and modern styling techniques",
         icon: (
             <img
-                src="/assets/svg/html-icon.svg"
+                src="public/svg/html-icon.svg"
                 alt="HTML5"
                 className="w-10 h-10 object-contain"
             />
@@ -59,7 +60,7 @@ export const SKILLS_DATA = [
         description: "Utility-first CSS framework for rapid styling",
         icon: (
             <img
-                src="/assets/svg/tailwind-icon.svg"
+                src="public/svg/tailwind-icon.svg"
                 alt="Tailwind CSS"
                 className="w-10 h-10 object-contain"
             />
@@ -73,7 +74,7 @@ export const SKILLS_DATA = [
         description: "Full-stack PHP framework with elegant syntax",
         icon: (
             <img
-                src="/assets/svg/laravel-icon.svg"
+                src="public/svg/laravel-icon.svg"
                 alt="Laravel"
                 className="w-10 h-10 object-contain"
             />
@@ -85,7 +86,7 @@ export const SKILLS_DATA = [
         description: "JavaScript runtime for server-side development",
         icon: (
             <img
-                src="/assets/svg/nodejs-icon.svg"
+                src="public/svg/nodejs-icon.svg"
                 alt="Node.js"
                 className="w-10 h-10 object-contain"
             />
@@ -97,7 +98,7 @@ export const SKILLS_DATA = [
         description: "Minimal and flexible Node.js web framework",
         icon: (
             <img
-                src="/assets/svg/express-icon.svg"
+                src="public/svg/express-icon.svg"
                 alt="Express.js"
                 className="w-10 h-10 object-contain"
             />
@@ -109,7 +110,7 @@ export const SKILLS_DATA = [
         description: "Building scalable and maintainable API services",
         icon: (
             <img
-                src="/assets/svg/restful-api-icon.svg"
+                src="public/svg/restful-api-icon.svg"
                 alt="RESTful APIs"
                 className="w-10 h-10 object-contain"
             />
@@ -123,7 +124,7 @@ export const SKILLS_DATA = [
         description: "Powerful open-source relational database system",
         icon: (
             <img
-                src="/assets/svg/postgresql-icon.svg"
+                src="public/svg/postgresql-icon.svg"
                 alt="PostgreSQL"
                 className="w-10 h-10 object-contain"
             />
@@ -137,7 +138,7 @@ export const SKILLS_DATA = [
         description: "Version control and collaborative development",
         icon: (
             <img
-                src="/assets/svg/github-icon.svg"
+                src="public/svg/github-icon.svg"
                 alt="GitHub"
                 className="w-10 h-10 object-contain"
             />
@@ -149,7 +150,7 @@ export const SKILLS_DATA = [
         description: "Containerization for consistent deployments",
         icon: (
             <img
-                src="/assets/svg/docker-icon.svg"
+                src="public/svg/docker-icon.svg"
                 alt="Docker"
                 className="w-10 h-10 object-contain"
             />
@@ -161,7 +162,7 @@ export const SKILLS_DATA = [
         description: "Lightweight and powerful code editor",
         icon: (
             <img
-                src="/assets/svg/vscode-icon.svg"
+                src="public/svg/vscode-icon.svg"
                 alt="VS Code"
                 className="w-10 h-10 object-contain"
             />
