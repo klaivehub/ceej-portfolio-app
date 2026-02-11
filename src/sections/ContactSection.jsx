@@ -45,6 +45,10 @@ export default function ContactSection() {
           <a
             href="mailto:iamchrisjohnlaxa@outlook.com"
             className="flex gap-4 items-center bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full transition duration-300 ease-in-out transform hover:scale-105"
+            style={{
+              backgroundColor: "var(--accent-color)",
+              color: "var(--primary-dark)",
+            }}
           >
             <EmailIcon />
             Let's Discuss Opportunities
