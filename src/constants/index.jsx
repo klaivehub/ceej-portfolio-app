@@ -24,7 +24,7 @@ export const SKILLS_DATA = [
         description: "Building interactive UIs with hooks and components",
         icon: (
             <img
-                src="public/svg/react-icon.svg"
+                src="assets/svg/react-icon.svg"
                 alt="React"
                 className="w-10 h-10 object-contain"
             />
