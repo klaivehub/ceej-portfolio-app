@@ -255,3 +255,74 @@ export const SOCIAL_LINKS = [
     label: "Facebook",
   },
 ];
+
+export const PROJECTS_DATA = [
+    {
+        "id": 9,
+        "title": "Petcheckr",
+        "description": "Petcheckr is an application in the Netherlands that connects pet owners with their trusted veterinarians.",
+        "image": "https://images.ctfassets.net/440y9b545yd9/2DlL8NDu4vWmDwGyUk2EBj/056ee737e31702bfe40be598c7af7bf1/image.png",
+        "technologies": [
+            {
+                "id": 1,
+                "name": "React"
+            },
+            {
+                "id": 2,
+                "name": "Laravel"
+            },
+            {
+                "id": 3,
+                "name": "MySQL"
+            },
+            {
+                "id": 4,
+                "name": "Docker"
+            },
+            {
+                "id": 5,
+                "name": "Figma"
+            },
+            {
+                "id": 6,
+                "name": "Express.js"
+            },
+            {
+                "id": 7,
+                "name": "Slack"
+            },
+            {
+                "id": 8,
+                "name": "GitHub"
+            },
+            {
+                "id": 9,
+                "name": "Tailwind CSS"
+            },
+            {
+                "id": 10,
+                "name": "Bootstrap"
+            },
+            {
+                "id": 11,
+                "name": "Postman"
+            },
+            {
+                "id": 12,
+                "name": "Agile Scrum"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "title": "City Delivery App",
+        "description": "This project is a city-wide delivery application that connects local businesses with customers, providing a seamless platform for ordering and delivering goods within the city.",
+        "image": "https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/MA_00248924_1.jpg"
+    },
+    {
+        "id": 11,
+        "title": "DigAssist",
+        "description": "This platform is a comprehensive tool for small to medium businesses, combining customer management, project management, and other features to boost productivity and simplify operations by centralizing information and automating tasks, replacing the need for multiple separate software programs.",
+        "image": "https://www.digassist.com/assets/media/misc/auth-screens2.png"
+    }
+]

@@ -1,16 +1,16 @@
 import { useState } from "react";
 
-export default function ProjectCard({ article }) {
+export default function ProjectCard({ projects }) {
 
     return (
         <div className="bg-white rounded-xl shadow-lg overflow-hidden relative group">
 
             {/* Existing Image Section */}
             <div className="h-48 overflow-hidden bg-gray-100">
-                {article.image ? (
+                {projects.image ? (
                     <img
-                        src={article.image}
-                        alt={article.title}
+                        src={projects.image}
+                        alt={projects.title}
                         className="w-full h-full object-cover"
                     />
                 ) : (
@@ -22,12 +22,12 @@ export default function ProjectCard({ article }) {
 
             {/* Existing Content Section */}
             <div className="p-6">
-                <h3 className="text-xl font-bold mb-2" style={{color: "var(--text-dark)"}}>{article.title}</h3>
+                <h3 className="text-xl font-bold mb-2" style={{color: "var(--text-dark)"}}>{projects.title}</h3>
                 <p className="text-gray-600 text-sm mb-4 line-clamp-2">
-                    {article.description}
+                    {projects.description}
                 </p>
                 <div className="flex flex-wrap gap-2">
-                    {article.technologies.map((tech) => (
+                    {projects.technologies.map((tech) => (
                         <span
                             key={tech.id}
                             className="px-2 py-1 bg-blue-100 text-blue-700 text-xs font-semibold rounded"

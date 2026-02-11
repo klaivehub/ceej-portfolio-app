@@ -1,6 +1,6 @@
 import React from "react";
 import ProjectCard from "../components/cards/ProjectCard";
-import { EXPERIENCES_DATA } from "../constants";
+import { PROJECTS_DATA } from "../constants";
 
 export default function PortfolioSection({ projects }) {
     return (
@@ -36,10 +36,10 @@ export default function PortfolioSection({ projects }) {
                     </p>
                 </div>
 
-                {EXPERIENCES_DATA.length > 0 ? (
+                {PROJECTS_DATA.length > 0 ? (
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-                        {EXPERIENCES_DATA.map((experience) => (
-                            <ProjectCard key={experience.title} experience={experience} />
+                        {PROJECTS_DATA.map((project) => (
+                            <ProjectCard key={project.id} project={project} />
                         ))}
                     </div>
                 ) : (

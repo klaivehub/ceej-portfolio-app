@@ -27,6 +27,12 @@ export default function ContactSection() {
       <div className="max-w-4xl mx-auto w-full px-6">
         {/* Section Header */}
         <div className="text-center mb-16">
+          <div className="flex items-center justify-center p-6">
+            <span className="flex items-center text-xs font-medium bg-emerald-900/30 text-emerald-400 border border-emerald-500/30 rounded-full px-6 py-2">
+              <span className="w-2 h-2 rounded-full animate-pulse bg-emerald-400 mr-2"></span>
+              Contact
+            </span>
+          </div>
           <h2
             className="text-4xl md:text-5xl font-bold mb-4 mt-6"
             style={{ fontFamily: "var(--font-display)" }}
@@ -44,7 +50,7 @@ export default function ContactSection() {
         <div className="flex flex-col items-center gap-6">
           <a
             href="mailto:iamchrisjohnlaxa@outlook.com"
-            className="flex gap-4 items-center bg-blue-500 hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full transition duration-300 ease-in-out transform hover:scale-105"
+            className="flex gap-4 items-center hover:bg-blue-600 text-white font-bold py-3 px-6 rounded-full transition duration-300 ease-in-out transform hover:scale-105"
             style={{
               backgroundColor: "var(--accent-color)",
               color: "var(--primary-dark)",

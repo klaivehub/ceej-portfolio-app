@@ -145,9 +145,9 @@ const ExperienceCard = ({ experience, index }) => {
           {/* Show More Button */}
           <Button
             onClick={() => setIsExpanded(!isExpanded)}
-            className="text-sm font-semibold inline-flex items-center gap-2 transition-colors duration-200"
+            className="text-sm font-semibold inline-flex items-center justify-center w-full gap-2 transition-colors duration-200"
             style={{
-              color: "var(--accent-color)",
+              color: "var(--primary-dark)",
             }}
           >
             {isExpanded ? "Show Less" : "Show More"}
@@ -172,8 +172,14 @@ export default function ExperienceSection() {
       <div className="max-w-4xl mx-auto w-full">
         {/* Section Header */}
         <div className="text-center mb-16">
+          <div className="flex items-center justify-center p-6">
+            <span className="flex items-center text-xs font-medium bg-emerald-900/30 text-emerald-400 border border-emerald-500/30 rounded-full px-6 py-2">
+              <span className="w-2 h-2 rounded-full animate-pulse bg-emerald-400 mr-2"></span>
+              Experience
+            </span>
+          </div>
           <h2
-            className="text-4xl md:text-5xl font-bold mb-4 mt-6"
+            className="text-4xl md:text-5xl font-bold mb-4"
             style={{ fontFamily: "var(--font-display)" }}
           >
             Professional{" "}
@@ -239,11 +245,11 @@ export default function ExperienceSection() {
                   .getElementById("contact")
                   .scrollIntoView({ behavior: "smooth" })
               }
-                className="px-6 py-3 rounded-full text-sm font-semibold transition duration-300 ease-in-out cursor-pointer transform hover:scale-105"
-                style={{
-                  backgroundColor: "var(--accent-color)",
-                  color: "var(--primary-dark)",
-                }}
+              className="px-6 py-3 rounded-full text-sm font-semibold transition duration-300 ease-in-out cursor-pointer transform hover:scale-105"
+              style={{
+                backgroundColor: "var(--accent-color)",
+                color: "var(--primary-dark)",
+              }}
             >
               Let’s Make It Happen
             </Button>
