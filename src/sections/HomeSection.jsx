@@ -31,6 +31,16 @@ const EmailIcon = () => (
 );
 
 export default function HomeSection() {
+  // Download resume function
+  const handleDownloadResume = () => {
+    const link = document.createElement("a");
+    link.href = "/documents/Laxa_Resume.pdf";
+    link.download = "Laxa_Resume.pdf";
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <section
       id="home"
@@ -74,8 +84,7 @@ export default function HomeSection() {
             {/* CTA Buttons */}
             <div className="flex flex-col gap-4">
               <Button
-                // download
-                href="/documents/chrisjohn_laxa_resume.pdf"
+                onClick={handleDownloadResume}
                 className="border-2 cursor-pointer"
                 style={{
                   backgroundColor: "var(--accent-color)",
