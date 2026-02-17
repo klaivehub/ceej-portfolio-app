@@ -288,7 +288,7 @@ export const PROJECTS_DATA = [
     description:
       "This project is a city-wide delivery application that connects local businesses with customers, providing a seamless platform for ordering and delivering goods within the city.",
     image:
-      "https://res.cloudinary.com/dk-find-out/image/upload/q_80,w_1920,f_auto/MA_00248924_1.jpg",
+      "https://th.bing.com/th/id/OIP.mRmKAd5EMghw4VA6gc-NzgHaHa?o=7rm=3&rs=1&pid=ImgDetMain&o=7&rm=3",
   },
   {
     id: 11,
